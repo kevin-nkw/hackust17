@@ -1,0 +1,17 @@
+{
+  "name": "hackust",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Kaz <KazWong@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/kevin-nkw/hackust17",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
