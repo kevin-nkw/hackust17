@@ -24,7 +24,7 @@ $( function() {
   } );
 
 
-  $(".label2").hover(function(){
+  $(".label2").click(function(){
 
     $(".itin1").hide();
     $(".itin2").show();
@@ -33,7 +33,7 @@ $( function() {
 
   });
 
-  $(".label1").hover(function(){
+  $(".label1").click(function(){
 
     $(".itin2").hide();
     $(".itin1").show();
