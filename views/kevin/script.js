@@ -8,9 +8,13 @@ $( function() {
 
 
     $( "#sortable1,#sortable2,#sortable3, #sortable4" ).sortable({
+      helper:"clone",
+      placeholder: "ui-state-highlight",
+      forcePlaceholderSize:"true",
       connectWith: ".connectedSortable",
       revert: true
     });
+    $( "#sortable1,#sortable2,#sortable3, #sortable4" ).disableSelection();
     $( ".draggable" ).draggable({
       connectToSortable: "#sortable1,#sortable2,#sortable3, #sortable4",
       helper: "clone",
@@ -40,4 +44,16 @@ $( function() {
 $("#addbutton").click(function(){
   window.location.href = "newitin.html";
 
-})
+});
+
+$(".label1").droppable({
+    over: function (event, ui) {
+       var yourCurrentlyHoveredElement = $(this);
+       console.log($(this).html()); //the 'this' under over event
+       $(".itin2:not(.ui-sortable-helper)").hide();
+       $(".itin1").show();
+       $('.label1').addClass('currenttab');
+       $('.label2').removeClass('currenttab');
+       $(".ui-sortable-helper").show();
+     }
+});
