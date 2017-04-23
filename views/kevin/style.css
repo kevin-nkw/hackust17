@@ -1,0 +1,119 @@
+.navbar-default{
+  background: #25C8A4;
+  color:white;
+  border:0px;
+}
+.navbar-default .navbar-nav>li>a ,.navbar-header a:visited {
+  color: white;
+}
+
+body{
+  background:#ddd;
+}
+
+
+ul { list-style-type: none; margin: 0; padding: 0; margin-bottom: 10px; }
+.connectedSortable .ui-state-default{ margin: 5px; padding: 5px; width: 150px; background-color: #eee; width:100%;  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+
+.column{
+  padding:0px 20px 0px 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background: white;
+}
+
+.dateno{
+  background: #E5F9F4;
+  margin:-2px -30px 20px -30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  font-size: 14pt;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)
+}
+
+.connectedSortable img{
+  height:70px;
+  width:70px;
+}
+
+.ui-state-default{
+  cursor: pointer;
+}
+
+.media,.ui-state-default{
+  background: #eee;
+}
+
+.time{
+  color:#999;
+  font-size: 8pt;
+}
+
+.fixed-pos{
+  position: fixed;
+  bottom: 50px;
+  margin-left: 20px;
+}
+
+.label{
+  padding:10px 20px 10px 20px;
+  margin: 20px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  cursor: pointer;
+}
+
+.label:hover{
+  padding:10px 20px 10px 20px;
+  margin: 20px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.currenttab{
+  background: #25C8A4;
+}
+
+.logo img{
+  width: 90px;
+  padding: 5px;
+}
+
+.grid .thumbnail{
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.grid .thumbnail:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.address{
+  color:#999;
+  font-size: 8pt;
+}
+
+
+
+
+#addbutton{
+  background: #25C8A4;
+  border: 0;
+box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+#addbutton:hover {
+  background: #25C8A4;
+  border: 0;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+
+.ui-state-highlight {
+  background: #E5F9F4;
+  border: 1px dashed #555;
+  box-shadow: none;
+
+}
